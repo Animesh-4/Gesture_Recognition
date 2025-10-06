@@ -19,6 +19,7 @@ This repository contains the following contents.
 # Demo
 Here's how to run the demo using your webcam.
 ```bash
+pip install mediapipe opencv-python tensorflow scikit-learn matplotlib
 python app.py
 ```
 
@@ -87,7 +88,7 @@ The following files are stored.
 This is a module for FPS measurement.
 
 
-## Training
+# Training
 
 You can add new gestures and retrain the models for both hand sign and finger gesture recognition.
 
